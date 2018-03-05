@@ -1,0 +1,27 @@
+﻿  program.cpp
+d:\engle\dragon3\dragon3\cell\mesh\../resources/bones.h(24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\engle\dragon3\dragon3\demo\../lib/includes/GLFW/glfw3.h(574): warning C4099: 'GLFWwindow': type name first seen using 'class' now seen using 'struct'
+  d:\engle\dragon3\dragon3\demo\../cell/cell.h(27): note: see declaration of 'GLFWwindow'
+demo\program.cpp(150): warning C4305: 'argument': truncation from 'double' to 'const float'
+demo\program.cpp(188): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(189): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(195): warning C4018: '<': signed/unsigned mismatch
+demo\program.cpp(273): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(307): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+demo\program.cpp(310): warning C4018: '<': signed/unsigned mismatch
+demo\program.cpp(312): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(313): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(316): warning C4018: '<': signed/unsigned mismatch
+demo\program.cpp(318): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+demo\program.cpp(394): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(395): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(399): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(400): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(402): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(403): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(417): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+demo\program.cpp(418): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  All 4380 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  dragon3.vcxproj -> D:\engle\dragon3\Release\dragon3.exe

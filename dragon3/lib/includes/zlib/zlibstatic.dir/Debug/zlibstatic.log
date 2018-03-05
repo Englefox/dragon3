@@ -1,0 +1,19 @@
+﻿  Building Custom Rule D:/engle/zlib-1.2.11/CMakeLists.txt
+  CMake does not need to re-run because D:/engle/zlib-1.2.11/CMakeFiles/generate.stamp is up-to-date.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+  zlibstatic.vcxproj -> D:\engle\zlib-1.2.11\Debug\zlibstaticd.lib

@@ -1,0 +1,7 @@
+﻿  program.cpp
+d:\engle\dragon3\dragon3\math\linear_algebra\quaternion.h(169): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\engle\dragon3\dragon3\math\linear_algebra\quaternion.h(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\engle\dragon3\dragon3\math\linear_algebra\quaternion.h(179): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\engle\dragon3\dragon3\math\test\test_vector.h(8): warning C4930: 'math::vector<3,float> vec01(void)': prototyped function not called (was a variable definition intended?)
+d:\engle\dragon3\dragon3\math\test\test_matrix.h(8): warning C4930: 'math::matrix<4,4,float> test01(void)': prototyped function not called (was a variable definition intended?)
+  dragon3.vcxproj -> D:\engle\dragon3\Debug\dragon3.exe

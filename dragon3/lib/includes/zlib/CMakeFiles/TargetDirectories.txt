@@ -1,0 +1,8 @@
+D:/engle/zlib-1.2.11/CMakeFiles/zlib.dir
+D:/engle/zlib-1.2.11/CMakeFiles/zlibstatic.dir
+D:/engle/zlib-1.2.11/CMakeFiles/example.dir
+D:/engle/zlib-1.2.11/CMakeFiles/minigzip.dir
+D:/engle/zlib-1.2.11/CMakeFiles/INSTALL.dir
+D:/engle/zlib-1.2.11/CMakeFiles/RUN_TESTS.dir
+D:/engle/zlib-1.2.11/CMakeFiles/ALL_BUILD.dir
+D:/engle/zlib-1.2.11/CMakeFiles/ZERO_CHECK.dir

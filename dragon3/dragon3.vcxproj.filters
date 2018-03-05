@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{fb10d929-7476-4e1a-b053-d8dce9c18976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\linear_algebra">
+      <UniqueIdentifier>{9fbed158-750d-4d42-8160-0c8e3f9adddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\test">
+      <UniqueIdentifier>{69bbc24d-ca09-470c-a10e-a573f404ab89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\trigonometry">
+      <UniqueIdentifier>{24ace950-a975-4866-8673-09dd45f8dfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell">
+      <UniqueIdentifier>{be9320d3-1a5e-4dc7-bbd2-c876f6b7abaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\camera">
+      <UniqueIdentifier>{459e7168-d80d-4e5f-9bc0-da1bca684543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\glad">
+      <UniqueIdentifier>{96c7bee3-29a2-449c-ae31-be231d8ea665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\imgui">
+      <UniqueIdentifier>{54842338-f63b-4bf6-acd4-3616f21e0a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\lighting">
+      <UniqueIdentifier>{2b5ebe27-7ebd-4ff8-8f10-a3bf8b3511b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{ad5d60e4-8a9c-4f97-babb-7c79920baf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\logging">
+      <UniqueIdentifier>{308a54c9-8043-4ec9-8dec-0763c9ecf6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\random">
+      <UniqueIdentifier>{c1267668-a291-43b0-a5f7-b63ccd832e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\timing">
+      <UniqueIdentifier>{74f3ade6-7939-49f8-bbbc-89ed890a01e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\stb">
+      <UniqueIdentifier>{03265ae1-1154-428e-8161-2d3b0cb77f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\mesh">
+      <UniqueIdentifier>{fa1747e7-060d-4d29-9faf-986d71219d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\scene">
+      <UniqueIdentifier>{442bf99a-42c8-4385-9e50-38d085fb52d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\shading">
+      <UniqueIdentifier>{02bb8e9f-42fc-4a69-8b46-6458e30a416c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\resources">
+      <UniqueIdentifier>{df1207f1-e644-4d05-bee6-40881f8d2b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo">
+      <UniqueIdentifier>{8fafc11d-0b03-458e-9ade-0b5c056f2a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo\scenes">
+      <UniqueIdentifier>{a918ecee-c883-4aa6-8e32-c3d6a865b010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\geometry">
+      <UniqueIdentifier>{472730dd-1427-450f-a6c2-e06042158857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell\renderer">
+      <UniqueIdentifier>{ff76b2a6-c326-4243-be03-96acc4c8d086}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="math\test\test_common.h">
+      <Filter>math\test</Filter>
+    </ClInclude>
+    <ClInclude Include="math\test\test_matrix.h">
+      <Filter>math\test</Filter>
+    </ClInclude>
+    <ClInclude Include="math\test\test_operations.h">
+      <Filter>math\test</Filter>
+    </ClInclude>
+    <ClInclude Include="math\test\test_transformations.h">
+      <Filter>math\test</Filter>
+    </ClInclude>
+    <ClInclude Include="math\test\test_vector.h">
+      <Filter>math\test</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\glad\glad.h">
+      <Filter>cell\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\glad\khrplatform.h">
+      <Filter>cell\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\imgui\imconfig.h">
+      <Filter>cell\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\imgui\imgui.h">
+      <Filter>cell\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\imgui\imgui_internal.h">
+      <Filter>cell\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\imgui\stb_rect_pack.h">
+      <Filter>cell\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\imgui\stb_textedit.h">
+      <Filter>cell\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\imgui\stb_truetype.h">
+      <Filter>cell\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\lighting\directional_light.h">
+      <Filter>cell\lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\lighting\point_light.h">
+      <Filter>cell\lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\floating_point.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\std_types.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\string_id.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\random\random.h">
+      <Filter>utility\random</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\timing\time.h">
+      <Filter>utility\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\logging\log.h">
+      <Filter>utility\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\timing\diagnostics.h">
+      <Filter>utility\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\stb\stb_image.h">
+      <Filter>cell\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="demo\scenes\pbr_test.h">
+      <Filter>demo\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\mesh\circle.h">
+      <Filter>cell\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\mesh\cube.h">
+      <Filter>cell\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\mesh\line_strip.h">
+      <Filter>cell\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\mesh\mesh.h">
+      <Filter>cell\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\mesh\plane.h">
+      <Filter>cell\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\mesh\quad.h">
+      <Filter>cell\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\mesh\sphere.h">
+      <Filter>cell\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\mesh\torus.h">
+      <Filter>cell\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\camera\camera.h">
+      <Filter>cell\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\camera\camera_frustum.h">
+      <Filter>cell\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\camera\fly_camera.h">
+      <Filter>cell\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="math\geometry\cube.h">
+      <Filter>math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="math\geometry\rectangle.h">
+      <Filter>math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\matrix.h">
+      <Filter>math\linear_algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\operation.h">
+      <Filter>math\linear_algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\quaternion.h">
+      <Filter>math\linear_algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\transformation.h">
+      <Filter>math\linear_algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="math\linear_algebra\vector.h">
+      <Filter>math\linear_algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="math\trigonometry\conversions.h">
+      <Filter>math\trigonometry</Filter>
+    </ClInclude>
+    <ClInclude Include="math\trigonometry\polar.h">
+      <Filter>math\trigonometry</Filter>
+    </ClInclude>
+    <ClInclude Include="math\trigonometry\spherical.h">
+      <Filter>math\trigonometry</Filter>
+    </ClInclude>
+    <ClInclude Include="math\common.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\command_buffer.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\gl_cache.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\MaterialLibrary.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\PBR.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\pbr_capture.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\PostProcessor.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\render_command.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\render_target.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\renderer\renderer.h">
+      <Filter>cell\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\shading\material.h">
+      <Filter>cell\shading</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\shading\shader.h">
+      <Filter>cell\shading</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\shading\shading_types.h">
+      <Filter>cell\shading</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\shading\texture.h">
+      <Filter>cell\shading</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\shading\texture_cube.h">
+      <Filter>cell\shading</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\scene\background.h">
+      <Filter>cell\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\scene\scene.h">
+      <Filter>cell\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\scene\scene_node.h">
+      <Filter>cell\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\resources\mesh_loader.h">
+      <Filter>cell\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\resources\resources.h">
+      <Filter>cell\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\resources\shader_loader.h">
+      <Filter>cell\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\resources\texture_loader.h">
+      <Filter>cell\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\cell.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\resources\animated_mesh_loader.h">
+      <Filter>cell\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="math\geometry\gplane.h">
+      <Filter>math\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="cell\resources\bones.h">
+      <Filter>cell\resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cell\glad\glad.c">
+      <Filter>cell\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\imgui\imgui.cpp">
+      <Filter>cell\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\imgui\imgui_demo.cpp">
+      <Filter>cell\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\imgui\imgui_draw.cpp">
+      <Filter>cell\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\random\random.cpp">
+      <Filter>utility\random</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\timing\time.cpp">
+      <Filter>utility\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\logging\log.cpp">
+      <Filter>utility\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\stb\stb_image.cpp">
+      <Filter>cell\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\scenes\pbr_test.cpp">
+      <Filter>demo\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\mesh\circle.cpp">
+      <Filter>cell\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\mesh\cube.cpp">
+      <Filter>cell\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\mesh\line_strip.cpp">
+      <Filter>cell\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\mesh\mesh.cpp">
+      <Filter>cell\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\mesh\plane.cpp">
+      <Filter>cell\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\mesh\quad.cpp">
+      <Filter>cell\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\mesh\sphere.cpp">
+      <Filter>cell\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\mesh\torus.cpp">
+      <Filter>cell\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="demo\program.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\camera\camera.cpp">
+      <Filter>cell\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\camera\camera_frustum.cpp">
+      <Filter>cell\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\camera\fly_camera.cpp">
+      <Filter>cell\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="math\trigonometry\polar.cpp">
+      <Filter>math\trigonometry</Filter>
+    </ClCompile>
+    <ClCompile Include="math\trigonometry\spherical.cpp">
+      <Filter>math\trigonometry</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\renderer\command_buffer.cpp">
+      <Filter>cell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\renderer\gl_cache.cpp">
+      <Filter>cell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\renderer\MaterialLibrary.cpp">
+      <Filter>cell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\renderer\PBR.cpp">
+      <Filter>cell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\renderer\pbr_capture.cpp">
+      <Filter>cell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\renderer\PostProcessor.cpp">
+      <Filter>cell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\renderer\render_target.cpp">
+      <Filter>cell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\renderer\renderer.cpp">
+      <Filter>cell\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\shading\material.cpp">
+      <Filter>cell\shading</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\shading\shader.cpp">
+      <Filter>cell\shading</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\shading\Texture.cpp">
+      <Filter>cell\shading</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\shading\texture_cube.cpp">
+      <Filter>cell\shading</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\scene\background.cpp">
+      <Filter>cell\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\scene\scene.cpp">
+      <Filter>cell\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\scene\scene_node.cpp">
+      <Filter>cell\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\resources\mesh_loader.cpp">
+      <Filter>cell\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\resources\resources.cpp">
+      <Filter>cell\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\resources\shader_loader.cpp">
+      <Filter>cell\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\resources\texture_loader.cpp">
+      <Filter>cell\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\cell.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="cell\resources\animated_mesh_loader.cpp">
+      <Filter>cell\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="math\geometry\gplane.cpp">
+      <Filter>math\geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

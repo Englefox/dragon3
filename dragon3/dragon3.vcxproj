@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{19F92693-3234-4C4F-BEC9-2BC057C7BBBD}</ProjectGuid>
+    <RootNamespace>dragon3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\engle\dragon3\dragon3\lib\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\engle\dragon3\dragon3\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\engle\dragon3\dragon3\lib\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\engle\dragon3\dragon3\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\engle\dragon3\dragon3\lib\includes\GLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glfw3.lib;assimp.lib;zlibstatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\engle\glfw-3.2.1\include\GLFW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3.lib;assimp.lib;zlibstatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="cell\camera\camera.h" />
+    <ClInclude Include="cell\camera\camera_frustum.h" />
+    <ClInclude Include="cell\camera\fly_camera.h" />
+    <ClInclude Include="cell\cell.h" />
+    <ClInclude Include="cell\glad\glad.h" />
+    <ClInclude Include="cell\glad\khrplatform.h" />
+    <ClInclude Include="cell\imgui\imconfig.h" />
+    <ClInclude Include="cell\imgui\imgui.h" />
+    <ClInclude Include="cell\imgui\imgui_internal.h" />
+    <ClInclude Include="cell\imgui\stb_rect_pack.h" />
+    <ClInclude Include="cell\imgui\stb_textedit.h" />
+    <ClInclude Include="cell\imgui\stb_truetype.h" />
+    <ClInclude Include="cell\lighting\directional_light.h" />
+    <ClInclude Include="cell\lighting\point_light.h" />
+    <ClInclude Include="cell\mesh\circle.h" />
+    <ClInclude Include="cell\mesh\cube.h" />
+    <ClInclude Include="cell\mesh\line_strip.h" />
+    <ClInclude Include="cell\mesh\mesh.h" />
+    <ClInclude Include="cell\mesh\plane.h" />
+    <ClInclude Include="cell\mesh\quad.h" />
+    <ClInclude Include="cell\mesh\sphere.h" />
+    <ClInclude Include="cell\mesh\torus.h" />
+    <ClInclude Include="cell\renderer\command_buffer.h" />
+    <ClInclude Include="cell\renderer\gl_cache.h" />
+    <ClInclude Include="cell\renderer\MaterialLibrary.h" />
+    <ClInclude Include="cell\renderer\PBR.h" />
+    <ClInclude Include="cell\renderer\pbr_capture.h" />
+    <ClInclude Include="cell\renderer\PostProcessor.h" />
+    <ClInclude Include="cell\renderer\renderer.h" />
+    <ClInclude Include="cell\renderer\render_command.h" />
+    <ClInclude Include="cell\renderer\render_target.h" />
+    <ClInclude Include="cell\resources\animated_mesh_loader.h" />
+    <ClInclude Include="cell\resources\bones.h" />
+    <ClInclude Include="cell\resources\mesh_loader.h" />
+    <ClInclude Include="cell\resources\resources.h" />
+    <ClInclude Include="cell\resources\shader_loader.h" />
+    <ClInclude Include="cell\resources\texture_loader.h" />
+    <ClInclude Include="cell\scene\background.h" />
+    <ClInclude Include="cell\scene\scene.h" />
+    <ClInclude Include="cell\scene\scene_node.h" />
+    <ClInclude Include="cell\shading\material.h" />
+    <ClInclude Include="cell\shading\shader.h" />
+    <ClInclude Include="cell\shading\shading_types.h" />
+    <ClInclude Include="cell\shading\texture.h" />
+    <ClInclude Include="cell\shading\texture_cube.h" />
+    <ClInclude Include="cell\stb\stb_image.h" />
+    <ClInclude Include="demo\scenes\pbr_test.h" />
+    <ClInclude Include="math\common.h" />
+    <ClInclude Include="math\geometry\cube.h" />
+    <ClInclude Include="math\geometry\gplane.h" />
+    <ClInclude Include="math\geometry\rectangle.h" />
+    <ClInclude Include="math\linear_algebra\matrix.h" />
+    <ClInclude Include="math\linear_algebra\operation.h" />
+    <ClInclude Include="math\linear_algebra\quaternion.h" />
+    <ClInclude Include="math\linear_algebra\transformation.h" />
+    <ClInclude Include="math\linear_algebra\vector.h" />
+    <ClInclude Include="math\math.h" />
+    <ClInclude Include="math\test\test_common.h" />
+    <ClInclude Include="math\test\test_matrix.h" />
+    <ClInclude Include="math\test\test_operations.h" />
+    <ClInclude Include="math\test\test_transformations.h" />
+    <ClInclude Include="math\test\test_vector.h" />
+    <ClInclude Include="math\trigonometry\conversions.h" />
+    <ClInclude Include="math\trigonometry\polar.h" />
+    <ClInclude Include="math\trigonometry\spherical.h" />
+    <ClInclude Include="utility\floating_point.h" />
+    <ClInclude Include="utility\logging\log.h" />
+    <ClInclude Include="utility\random\random.h" />
+    <ClInclude Include="utility\std_types.h" />
+    <ClInclude Include="utility\string_id.h" />
+    <ClInclude Include="utility\timing\diagnostics.h" />
+    <ClInclude Include="utility\timing\time.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cell\camera\camera.cpp" />
+    <ClCompile Include="cell\camera\camera_frustum.cpp" />
+    <ClCompile Include="cell\camera\fly_camera.cpp" />
+    <ClCompile Include="cell\cell.cpp" />
+    <ClCompile Include="cell\glad\glad.c" />
+    <ClCompile Include="cell\imgui\imgui.cpp" />
+    <ClCompile Include="cell\imgui\imgui_demo.cpp" />
+    <ClCompile Include="cell\imgui\imgui_draw.cpp" />
+    <ClCompile Include="cell\mesh\circle.cpp" />
+    <ClCompile Include="cell\mesh\cube.cpp" />
+    <ClCompile Include="cell\mesh\line_strip.cpp" />
+    <ClCompile Include="cell\mesh\mesh.cpp" />
+    <ClCompile Include="cell\mesh\plane.cpp" />
+    <ClCompile Include="cell\mesh\quad.cpp" />
+    <ClCompile Include="cell\mesh\sphere.cpp" />
+    <ClCompile Include="cell\mesh\torus.cpp" />
+    <ClCompile Include="cell\renderer\command_buffer.cpp" />
+    <ClCompile Include="cell\renderer\gl_cache.cpp" />
+    <ClCompile Include="cell\renderer\MaterialLibrary.cpp" />
+    <ClCompile Include="cell\renderer\PBR.cpp" />
+    <ClCompile Include="cell\renderer\pbr_capture.cpp" />
+    <ClCompile Include="cell\renderer\PostProcessor.cpp" />
+    <ClCompile Include="cell\renderer\renderer.cpp" />
+    <ClCompile Include="cell\renderer\render_target.cpp" />
+    <ClCompile Include="cell\resources\animated_mesh_loader.cpp" />
+    <ClCompile Include="cell\resources\mesh_loader.cpp" />
+    <ClCompile Include="cell\resources\resources.cpp" />
+    <ClCompile Include="cell\resources\shader_loader.cpp" />
+    <ClCompile Include="cell\resources\texture_loader.cpp" />
+    <ClCompile Include="cell\scene\background.cpp" />
+    <ClCompile Include="cell\scene\scene.cpp" />
+    <ClCompile Include="cell\scene\scene_node.cpp" />
+    <ClCompile Include="cell\shading\material.cpp" />
+    <ClCompile Include="cell\shading\shader.cpp" />
+    <ClCompile Include="cell\shading\Texture.cpp" />
+    <ClCompile Include="cell\shading\texture_cube.cpp" />
+    <ClCompile Include="cell\stb\stb_image.cpp" />
+    <ClCompile Include="demo\program.cpp" />
+    <ClCompile Include="demo\scenes\pbr_test.cpp" />
+    <ClCompile Include="math\geometry\gplane.cpp" />
+    <ClCompile Include="math\trigonometry\polar.cpp" />
+    <ClCompile Include="math\trigonometry\spherical.cpp" />
+    <ClCompile Include="utility\logging\log.cpp" />
+    <ClCompile Include="utility\random\random.cpp" />
+    <ClCompile Include="utility\timing\time.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
